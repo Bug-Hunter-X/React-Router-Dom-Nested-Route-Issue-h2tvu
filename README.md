@@ -1,0 +1,3 @@
+# React Router Dom Nested Route Issue
+
+This repository demonstrates a common issue encountered when working with nested routes in React Router Dom v6.  The problem arises when attempting to access nested routes without first defining a parent route. The Routes component renders nothing when nested routes are used without a parent route,  The solution provided fixes this by adding the necessary parent route in the Route component.
